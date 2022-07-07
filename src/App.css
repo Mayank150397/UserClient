@@ -1,0 +1,123 @@
+.App {
+    text-align: center;
+    background-color: #282c34;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(10px + 2vmin);
+    color: white;
+}
+
+.form {
+    position: absolute;
+    display: flex;
+    font-family: inter;
+    font-size: normal;
+    align-items: center;
+    flex-direction: column;
+    height: 90vh;
+    width: auto;
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(8.5px);
+    border-radius: 10px;
+    color: #ffffff;
+}
+
+.logo {
+    position: absolute;
+    height: 70px;
+    width: 70px;
+    border-radius: 80%;
+    background: linear-gradient(221.83deg, #BB86FC 13.77%, #292929 53.84%);
+    border: 1px solid rgba(255, 255, 255, 0.04);
+    margin: 5px;
+}
+
+.text {
+    margin: 80px;
+}
+
+.text2 {
+    margin-top: 1px;
+    margin-bottom: 1px;
+    font-size: 1.2rem;
+}
+
+.text3 {
+    margin-top: 1px;
+    font-size: 0.8rem;
+}
+
+.form__Name {
+    padding: 0.6rem;
+    font-size: 0.8rem;
+    margin-top: 10px;
+    margin-right: 6rem;
+    width: 15rem;
+    background-color: transparent;
+    border-color: white;
+}
+
+.form__password {
+    padding: 0.6rem;
+    font-size: 0.8rem;
+    width: 15rem;
+    margin: 20px;
+    margin-left: 12.5rem;
+    background-color: transparent;
+    border-color: white;
+    color: white;
+}
+
+.btn {
+    position: relative;
+    padding: 0.1rem;
+    font-size: 1rem;
+    top: 0.2rem;
+    right: 3rem;
+    background-color: transparent;
+    color: white;
+    border: none;
+    z-index: -1;
+}
+
+.sign_in {
+    margin: 10px;
+    height: 30px;
+    width: 80px;
+    background-color: #BB86FC;
+    border: none;
+    border-radius: 10%;
+}
+
+.text4 {
+    margin: 1px;
+    font-size: 0.6rem;
+}
+
+.Name {
+    position: relative;
+    font-size: 0.7rem;
+    margin: -5.5rem;
+    top: -3.4rem;
+    right: 4.5rem;
+    background: rgba(255, 255, 255, 0);
+    color: white;
+    padding: 0.1rem;
+    z-index: -1;
+}
+
+.Password {
+    position: relative;
+    font-size: 0.7rem;
+    margin: -5.5rem;
+    top: -1.2rem;
+    left: 11.2rem;
+    background: rgba(255, 255, 255, 0);
+    color: white;
+    padding: 0.1rem;
+    z-index: -1;
+}
